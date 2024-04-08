@@ -109,6 +109,9 @@ int main(void)
 
   systemInit();
 
+  lcd_clear(WHITE);
+  TestLcd();
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -127,7 +130,6 @@ int main(void)
 		  }
 
 		  TestButtonMatrix();
-		  TestLcd();
 
 	  }
 
